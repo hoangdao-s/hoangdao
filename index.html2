@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>HOANGDAOIOS</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px 15px;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+    text-align: center;
+}
+
+.card {
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 25px 18px;
+    background: white;
+    border-radius: 22px;
+    box-shadow: 0 5px 25px #00000012;
+}
+
+h1 {
+    color: #ff4fa3;
+    font-size: 32px;
+    text-shadow: 0 0 12px #ffb6d9;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 22px;
+}
+
+.avatar {
+    width: 100%;
+    max-height: 430px;
+    object-fit: cover;
+    object-position: center 20%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 21px;
+    color: #ff4fa3;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    margin-top: 15px;
+    border-radius: 13px;
+    background: #00a878;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0 5px 0 #007b57;
+    transition: 0.2s;
+}
+
+.btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #007b57;
+}
+
+.tiktok {
+    background: #ff4fa3;
+    box-shadow: 0 5px 0 #d72b7c;
+}
+
+.footer {
+    color: #aaa;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: appear 0.8s ease;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>HOANGDAOIOS</h1>
+
+    <p class="subtitle">
+        ✨ Welcome to my website ✨
+    </p>
+
+    <!-- ẢNH CỦA EM -->
+    <img
+        class="avatar"
+        src="https://viesnap.vn/tiktok/ZSgdhLm9X-1.jpeg"
+        alt="Ảnh GTA SA DRILL"
+        onerror="this.style.display='none'"
+    >
+
+    <h2>🔥 HOANGDAOIOS 🔥</h2>
+
+    <p>
+        Chào mừng anh em đến với website của Tôi 
+        <br>
+        vào nhóm inbox menu ff nhé 
+    </p>
+<button>Đề nghị bỏ tay ra túi quần</button>
+<!-- LINK GTA SA -->
+    <a class="btn"
+       href="https://t.me/+D1ttIRNraoNiOWVl"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎮 Nhóm tele
+
+<!-- LINK GTA SA -->
+    <a class="btn"
+       href="https://www.mediafire.com/file/whb29x4yb1db6z0/com.rockstargames.gtasa_V3.zip/file"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎮 mob drll v3 tự dán đi đừng hỏi bố
+
+    <!-- LINK GTA SA -->
+    <a class="btn"
+       href="https://www.mediafire.com/file/sbos8vzab5m50v8/gta3saipa.ipa/file"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎮 TẢI GTA SAN ANDREAS
+    </a>
+
+    <!-- LINK TIKTOK -->
+    <a class="btn tiktok"
+       href="https://www.tiktok.com/@hoangdao0012?_r=1&_t=ZS-9AZ9ArtEBUs"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎵 TIKTOK HOANGDAOIOS ↗
+      </a>
+     <p 
+  class="footer">
+        © 2026 HOANGDAOIOS
+        <br>
+        Made with ❤️
+    </p>
+
+</div>
+
+</body>
+</html>
