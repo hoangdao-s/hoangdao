@@ -3,20 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>HOANGDAOIOS</title>
 
-<style>
+<style>:body {
+    background: #000;
+}
+
+#matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.88);
+    border: 1px solid #00ff41;
+}
+
+h1, h2 {
+    color: #00ff41;
+    text-shadow: 0 0 10px #00ff41;
+}
 * {
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+    margin: 5;
     padding: 25px 15px;
     font-family: Arial, sans-serif;
     background: #ffffff;
     color: #222;
     text-align: center;
+<body>
+<canvas id="matrix"></canvas>
+
+<div class="card">
 }
 
 .card {
@@ -26,6 +55,8 @@ body {
     background: white;
     border-radius: 22px;
     box-shadow: 0 5px 25px #00000012;
+}
+
 h1 {
     color: #000000;
     font-size: 32px;
@@ -49,8 +80,10 @@ h1 {
 
 h2 {
     font-size: 21px;
-    color: #ff4fa3;
+    color: #000000;
 }
+}
+
 p {
     line-height: 1.6;
 }
@@ -75,9 +108,10 @@ p {
     transform: translateY(4px);
     box-shadow: 0 1px 0 #007b57;
 }
+
 .tiktok {
-    background: #ff4fa3;
-    box-shadow: 0 5px 0 #d72b7c;
+    background: #000000;
+    box-shadow: 0 5px 0 #444444;
 }
 
 .footer {
@@ -101,6 +135,7 @@ p {
     animation: appear 0.8s ease;
 }
 </style>
+
 </head>
 
 <body>
@@ -110,7 +145,7 @@ p {
     <h1>HOANGDAOIOS</h1>
 
     <p class="subtitle">
-        ✨ Welcome to my website no flaws ✨
+        ✨ Welcome to my website ✨
     </p>
 
     <!-- ẢNH CỦA EM -->
